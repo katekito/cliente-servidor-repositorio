@@ -1,0 +1,26 @@
+/* ESTILOS GLOBALES */
+/* You can add global styles to this file, and also import other style files */
+
+/* Se eligio un radiente de fondo "tipo: memariani", dentro del body tendra estas propiedades */
+/* todos los componentes tendran este fondo */
+
+body{
+    background: #aa4b6b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.titulo { /* se aplica un estilo */
+
+/*  se agranda la letra */
+    font-size: 1.8rem; 
+
+/* >En el codigo copiado se declaraba la clase .montserrat-subrayado-**, pero no aparecia en la pagina <  */
+/* > Por lo que para solucionarlo se integro dentro de la clase ya creada .titulo los estilos < */
+/* > Los estilos son estraidos desde index.html desde un link(puerto) < */
+    font-family: "Montserrat Subrayada", sans-serif; /* PROBLEMA >< */
+    font-weight: 700;
+    font-style: normal;
+
+}
+

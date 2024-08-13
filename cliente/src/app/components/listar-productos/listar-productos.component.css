@@ -1,0 +1,9 @@
+/* todas las clases "fa-solid" en "listar productos" van a tener las siguientes propiedades */
+
+.fa-solid { /* siguientes propiedades css    */
+    cursor: pointer; /* cuando se pasa pro encima el cursor aparece seleccionable */
+    margin-left: 7px; /* distancia entre los elementos "fa-solid" de 7 pixeles */
+}
+
+
+

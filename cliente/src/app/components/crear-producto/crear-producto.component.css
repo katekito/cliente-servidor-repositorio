@@ -1,0 +1,7 @@
+/* todos elementos con text-danger se le aplicaran estos cambios */
+.text-danger{
+    text-align: start;
+    margin-left: 7px;
+}
+
+

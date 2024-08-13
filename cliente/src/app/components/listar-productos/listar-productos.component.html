@@ -1,0 +1,57 @@
+<!-- se va a poner un conteiner que es una clase BOOTSTRAP -->
+<!-- mt-5 es para hacer una separacion del contenido en 5 pixeles -->
+<div class="container mt-5">
+    
+    <div class="row"><!-- otro tipo de bustrap -->
+        
+        <div class="col-lg-8 offset-lg-2"><!-- una columna lg de 8 con un offset de lg de 2 "dos columnas de vacias a la izquierda" -->
+            
+            <div class="card"><!-- clase card -->
+                <div class="card-body text-center"><!-- "clase card-body text center" un tipo de bustrap que alinea al medio -->
+                    <span class="titulo">LISTADO DE PRODUCTOS</span> <!-- la "clase titulo" se pondria en estilos globales (styles.css) -->
+                    <!--[con BOOTSTRAP 5] boton con clase "btn btn-success" otra clase "float-end" alinea boton derecha -->
+                    <button class="btn btn-success float-end" routerLink="/crear-producto">NUEVO</button><!-- Directiva "routerLink" ruta a la que se dirije -->
+                    
+                    <table class="table table-striped mt-3"> <!-- TABLA sacada de BOOTSTRAP 5 (copi pega) -->
+                        
+                        <!-- Se agrega la clas "table-striped"  --> <!-- "mt-3" separa contenido -->
+                        <thead> <!-- TITULOS COLUMNAS -->
+                          <tr>
+                            <th scope="col">proucto</th>
+                            <th scope="col">categoria</th>
+                            <th scope="col">ubicacion</th>
+                            <th scope="col">precio</th>
+                            <th scope="col"></th><!-- COLUMNA para acciones(edicion y eliminacion de registros) -->
+                          </tr>
+                        </thead>
+                        
+                        <tbody><!-- CATEGORIAS de elementos -->
+                          <tr><!-- ELEMENTOS DE LA PRIMERA FILA -->
+                            <td>Coca Cola</td> <!-- td negrita; th simple -->
+                            <td>bebidas</td>
+                            <td>Buenos Aires</td>
+                            <td>2</td> 
+                            <td><!-- los iconos pueden tomar colores con las clases de bootstrap -->
+                                <i class="fa-solid fa-pen-to-square text-primary"></i> <!-- icono edit -->
+                                <i class="fa-solid fa-trash text-danger"></i> <!-- icono trash-->
+                            </td> <!-- para las acciones --> 
+                          </tr>
+                          
+                          <tr><!-- ELEMENTOS DE LA SEGUNDA FILA -->
+                            <td>Malboro 20</td> <!-- td negrita; th simple -->
+                            <td>Cigarrillos</td> 
+                            <td>Barcelona</td>
+                            <td>3</td> 
+                            <td>
+                                <i class="fa-solid fa-pen-to-square text-primary"></i> <!-- icono edit -->
+                                <i class="fa-solid fa-trash text-danger"></i> <!-- icono trash-->
+                            </td> <!-- para las acciones --> 
+                          
+                            <tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
